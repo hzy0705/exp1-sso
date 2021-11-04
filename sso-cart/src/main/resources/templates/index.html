@@ -13,7 +13,7 @@
 <p th:unless="${session.loginUser == null}">
     <span style="color: deepskyblue;" th:text="${session.loginUser.username}"></span>已登录
 </p>
-<a th:unless="${session.loginUser == null}" href="http://login.codeshop.com:9000/view/login/loginOut?target=http://cart.codeshop.com:9019/view/index">退出</a>
+<a th:unless="${session.loginUser == null}" href="http://login.codeshop.com:9000/login/loginOut?target=http://cart.codeshop.com:9019/view/index">退出</a>
 </body>
 
 </html>

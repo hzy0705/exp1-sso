@@ -9,6 +9,7 @@ import org.springframework.web.client.RestTemplate;
 import org.thymeleaf.util.StringUtils;
 
 import javax.servlet.http.Cookie;
+import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 import java.util.Map;
 
@@ -30,4 +31,13 @@ public class ViewController {
         }
         return "index";
     }
+    //@GetMapping("/out")
+    //public String toOut(@CookieValue(required = false,value = "TOKEN")Cookie cookie,
+    //                    HttpSession session, HttpServletResponse response){
+    //    Cookie cookieCopy = new Cookie("TOKEN",null);
+    //    cookieCopy.setMaxAge(0);
+     //   cookieCopy.setPath("/");
+     //   response.addCookie(cookieCopy);
+    //    return "out";
+   // }
 }

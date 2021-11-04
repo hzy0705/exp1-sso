@@ -34,6 +34,9 @@ public class ViewController {
 
         //重定向地址
         session.setAttribute("target",target);
+
+
         return "login";
+
     }
 }
