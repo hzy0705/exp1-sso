@@ -11,6 +11,8 @@
     <modules>
         <module>sso-login</module>
         <module>sso-main</module>
+        <module>sso-vip</module>
+        <module>sso-cart</module>
     </modules>
 
     <dependencies>

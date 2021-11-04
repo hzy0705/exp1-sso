@@ -7,14 +7,18 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="sso-main" />
+        <module name="sso-cart" />
         <module name="sso-login" />
+        <module name="sso-vip" />
+        <module name="sso-main" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="exp1-sso" target="1.8" />
+      <module name="sso-cart" target="11" />
       <module name="sso-login" target="11" />
       <module name="sso-main" target="11" />
+      <module name="sso-vip" target="11" />
     </bytecodeTargetLevel>
   </component>
 </project>

@@ -3,8 +3,10 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/exp1-sso.iml" filepath="$PROJECT_DIR$/exp1-sso.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sso-cart/sso-cart.iml" filepath="$PROJECT_DIR$/sso-cart/sso-cart.iml" />
       <module fileurl="file://$PROJECT_DIR$/sso-login/sso-login.iml" filepath="$PROJECT_DIR$/sso-login/sso-login.iml" />
       <module fileurl="file://$PROJECT_DIR$/sso-main/sso-main.iml" filepath="$PROJECT_DIR$/sso-main/sso-main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sso-vip/sso-vip.iml" filepath="$PROJECT_DIR$/sso-vip/sso-vip.iml" />
     </modules>
   </component>
 </project>
