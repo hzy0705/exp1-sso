@@ -10,6 +10,7 @@
     <version>1.0-SNAPSHOT</version>
     <modules>
         <module>sso-login</module>
+        <module>sso-main</module>
     </modules>
 
     <dependencies>
