@@ -5,13 +5,14 @@
     <title>首页</title>
 </head>
 <body>
-<h1>这是首页</h1>
- <span>
+<h1>欢迎来到Code Shop</h1>
+<span>
         <a th:if="${session.loginUser == null}" href="http://login.codeshop.com:9000/view/login?target=http://www.codeshop.com:9010/view/index">登录</a>
         <a th:unless="${session.loginUser == null}" href="http://login.codeshop.com:9000/view/login/loginOut?target=http://www.codeshop.com:9010/view/index">退出</a>
-</span>
+    </span>
 <p th:unless="${session.loginUser == null}">
-    欢迎<span style="color: deepskyblue;" th:text="${session.loginUser.username}"></span>登录
+    <span style="color: deepskyblue;" th:text="${session.loginUser.username}"></span>已登录
 </p>
+
 </body>
 </html>
